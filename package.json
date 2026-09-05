@@ -1,0 +1,16 @@
+{
+  "name": "message-board",
+  "version": "1.0.0",
+  "description": "Mini message board app using express and ejs",
+  "license": "ISC",
+  "author": "miryarik",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^6.0.1",
+    "express": "^5.2.1"
+  }
+}

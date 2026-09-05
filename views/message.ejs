@@ -1,0 +1,26 @@
+<%- include('layout-head', { title: 'Message Detail' }) %>
+
+<a href="/" style="color: var(--muted); text-decoration: none; font-weight: bold; margin-bottom: 1rem; display: inline-block;">
+  
+</a>
+
+<article style="
+  background: var(--surface);
+  border: var(--border-thick);
+  padding: 2.5rem;
+  box-shadow: 10px 10px 0px var(--accent);
+  margin-top: 1rem;
+">
+  <header style="border-bottom: 2px dashed var(--border); padding-bottom: 1rem; margin-bottom: 1.5rem;">
+    <h1 style="color: var(--accent); font-size: 2rem; text-transform: uppercase; margin-bottom: 0.5rem;">
+      @<%= item.user %>
+    </h1>
+    <span style="color: var(--muted); font-size: 0.85rem;">POSTED ON: <%= item.added %></span>
+  </header>
+
+  <div style="font-size: 1.15rem; line-height: 1.6; white-space: pre-wrap; color: var(--text);">
+    <%= item.text %>
+  </div>
+</article>
+
+<%- include('layout-foot') %>

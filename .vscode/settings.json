@@ -1,0 +1,14 @@
+{
+  "files.associations": {
+    "*.ejs": "ejs"
+  },
+  "[ejs]": {
+    "editor.formatOnSave": false
+  }
+}
+{
+  // Disable automatic formatting on save specifically for EJS files
+  "[ejs]": {
+    "editor.formatOnSave": false
+  }
+}

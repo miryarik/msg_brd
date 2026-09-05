@@ -1,0 +1,11 @@
+<%- include('layout-head', { title: 'All Messages' }) %>
+
+<h1 class="page-title"><%= title %></h1>
+
+<ul class="message-grid">
+  <% messages.forEach(function(item) { %>
+    <%- include('message-list-item', { item: item }) %>
+  <% }) %>
+</ul>
+
+<%- include('layout-foot') %>
